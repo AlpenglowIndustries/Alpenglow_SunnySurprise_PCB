@@ -1,0 +1,178 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Sun"
+Date "2022-03-11"
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 "SUN-01000"
+Comment3 "WRIGHT"
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 622BCBEF
+P 3100 3550
+F 0 "BT1" H 3218 3646 50  0000 L CNN
+F 1 "Battery_Cell" H 3218 3555 50  0000 L CNN
+F 2 "Alpenglow:BatteryHolder_MPD_BK888_2032_THRU" V 3100 3610 50  0001 C CNN
+F 3 "~" V 3100 3610 50  0001 C CNN
+	1    3100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 622BD4A9
+P 4050 2600
+F 0 "#PWR01" H 4050 2450 50  0001 C CNN
+F 1 "VCC" H 4065 2773 50  0000 C CNN
+F 2 "" H 4050 2600 50  0001 C CNN
+F 3 "" H 4050 2600 50  0001 C CNN
+	1    4050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Alpenglow:SW_SPDT SW1
+U 1 1 622BDC31
+P 5250 2600
+F 0 "SW1" H 5250 2885 50  0000 C CNN
+F 1 "SW_SPDT" H 5250 2794 50  0000 C CNN
+F 2 "Alpenglow:SW_SLIDE_RTA" H 5250 2600 50  0001 C CNN
+F 3 "~" H 5250 2600 50  0001 C CNN
+	1    5250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Alpenglow:LED D1
+U 1 1 622BF62D
+P 6500 4250
+F 0 "D1" H 6500 4457 50  0000 C CNN
+F 1 "LED" H 6500 4366 50  0000 C CNN
+F 2 "Alpenglow:LED_D5.0mm_Horizontal_Sun" V 6500 4250 50  0001 C CNN
+F 3 "~" V 6500 4250 50  0001 C CNN
+	1    6500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Alpenglow:LED D2
+U 1 1 622C04AA
+P 6900 4250
+F 0 "D2" H 6900 4457 50  0000 C CNN
+F 1 "LED" H 6900 4366 50  0000 C CNN
+F 2 "Alpenglow:LED_D5.0mm_Horizontal_Sun" V 6900 4250 50  0001 C CNN
+F 3 "~" V 6900 4250 50  0001 C CNN
+	1    6900 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Alpenglow:LED D5
+U 1 1 622C0DF2
+P 8100 4250
+F 0 "D5" H 8100 4457 50  0000 C CNN
+F 1 "LED" H 8100 4366 50  0000 C CNN
+F 2 "Alpenglow:LED_D5.0mm_Horizontal_Sun" V 8100 4250 50  0001 C CNN
+F 3 "~" V 8100 4250 50  0001 C CNN
+	1    8100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Alpenglow:LED D4
+U 1 1 622C1348
+P 7700 4250
+F 0 "D4" H 7700 4457 50  0000 C CNN
+F 1 "LED" H 7700 4366 50  0000 C CNN
+F 2 "Alpenglow:LED_D5.0mm_Horizontal_Sun" V 7700 4250 50  0001 C CNN
+F 3 "~" V 7700 4250 50  0001 C CNN
+	1    7700 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Alpenglow:LED D3
+U 1 1 622C1817
+P 7300 4250
+F 0 "D3" H 7300 4457 50  0000 C CNN
+F 1 "LED" H 7300 4366 50  0000 C CNN
+F 2 "Alpenglow:LED_D5.0mm_Horizontal_Sun" V 7300 4250 50  0001 C CNN
+F 3 "~" V 7300 4250 50  0001 C CNN
+	1    7300 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Alpenglow:GND #PWR02
+U 1 1 622C5D28
+P 5050 5050
+F 0 "#PWR02" H 5050 4800 50  0001 C CNN
+F 1 "GND" H 5055 4877 50  0000 C CNN
+F 2 "" H 5050 5050 50  0001 C CNN
+F 3 "" H 5050 5050 50  0001 C CNN
+	1    5050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3350 3100 2600
+Wire Wire Line
+	3100 2600 4050 2600
+Wire Wire Line
+	4050 2600 5050 2600
+Connection ~ 4050 2600
+Wire Wire Line
+	5450 2700 7300 2700
+Wire Wire Line
+	3100 5050 5050 5050
+Wire Wire Line
+	3100 3650 3100 5050
+Wire Wire Line
+	5050 5050 7300 5050
+Connection ~ 5050 5050
+Wire Wire Line
+	8100 4350 8100 4800
+Wire Wire Line
+	7700 4350 7700 4800
+Connection ~ 7700 4800
+Wire Wire Line
+	7700 4800 8100 4800
+Wire Wire Line
+	6500 4800 6500 4350
+Wire Wire Line
+	6900 4350 6900 4800
+Connection ~ 6900 4800
+Wire Wire Line
+	6900 4800 6500 4800
+Wire Wire Line
+	7300 4350 7300 4800
+Connection ~ 7300 4800
+Wire Wire Line
+	7300 4800 6900 4800
+NoConn ~ 5450 2500
+Wire Wire Line
+	7300 4150 7300 3700
+Wire Wire Line
+	6900 4150 6900 3700
+Wire Wire Line
+	6900 3700 7300 3700
+Wire Wire Line
+	6500 4150 6500 3700
+Wire Wire Line
+	6500 3700 6900 3700
+Connection ~ 6900 3700
+Wire Wire Line
+	7700 4150 7700 3700
+Connection ~ 7300 3700
+Wire Wire Line
+	8100 4150 8100 3700
+Wire Wire Line
+	8100 3700 7700 3700
+Connection ~ 7700 3700
+Wire Wire Line
+	7300 3700 7300 2700
+Wire Wire Line
+	7300 4800 7300 5050
+Wire Wire Line
+	7300 4800 7700 4800
+Wire Wire Line
+	7300 3700 7700 3700
+$EndSCHEMATC
