@@ -1,4 +1,4 @@
-19885396290728889
+19913515071916933
 Alpenglow
 0603+
 LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -8,13 +8,6 @@ LED
 2
 Alpenglow
 AlpenglowLogo5mm
-
-
-0
-0
-0
-Alpenglow
-AlpenglowLogo11mm
 
 
 0
@@ -98,7 +91,42 @@ Alpenglow_Logo_NoText
 0
 0
 Alpenglow
+Alpenglow_Logo_NoText_8
+
+
+0
+0
+0
+Alpenglow
+Alpenglow_Logo_NoText_9
+
+
+0
+0
+0
+Alpenglow
 Alpenglow_Logo_Std
+
+
+0
+0
+0
+Alpenglow
+Alpenglow_SMD_Slide_Switch
+Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
+
+0
+7
+3
+Alpenglow
+Alpenglow_SecondaryLogo_25x6.7
+
+
+0
+0
+0
+Alpenglow
+Alpenglow_SecondaryLogo_30x8.1
 
 
 0
@@ -175,6 +203,13 @@ HEADER-01X06-SMT-RTA
 6
 6
 Alpenglow
+LED_0805+
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+Alpenglow
 LED_1204_RTA
 LED RGB, APFA3010, http://www.kingbrightusa.com/images/catalog/SPEC/APFA3010LSEEZGKQBKC.pdf
 LED RGB APFA3010 KINGBRIGHT 3x1.5mm
@@ -185,6 +220,13 @@ Alpenglow
 LED_1204_RTA_2P
 LED RGB, APFA3010, http://www.kingbrightusa.com/images/catalog/SPEC/APFA3010LSEEZGKQBKC.pdf
 LED RGB APFA3010 KINGBRIGHT 3x1.5mm
+0
+2
+2
+Alpenglow
+LED_1206+
+LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
 0
 2
 2
@@ -203,6 +245,13 @@ LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-positi
 2
 2
 Alpenglow
+MINI_MELF
+Diode Mini-MELF (SOD-80)
+Diode Mini-MELF (SOD-80)
+0
+2
+2
+Alpenglow
 MNTG-HOLE-440
 
 
@@ -210,7 +259,49 @@ MNTG-HOLE-440
 1
 1
 Alpenglow
+MNTG-HOLE-BANANA
+
+
+0
+1
+1
+Alpenglow
+SO-8
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Alpenglow
+SO-14
+SO, 14 Pin (https://www.st.com/resource/en/datasheet/l6491.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SO SO
+0
+14
+14
+Alpenglow
+SO-16
+SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+16
+16
+Alpenglow
+SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+Alpenglow
 SOT-23-3
+SOT-23, Standard
+SOT-23
+0
+3
+3
+Alpenglow
+SOT-23-3-BEC
 SOT-23, Standard
 SOT-23
 0
@@ -245,12 +336,26 @@ switch SPDT
 5
 3
 Alpenglow
+SW_SPDT_SMT_RTA
+Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
+
+0
+7
+7
+Alpenglow
 SlideSwitch_THT_SPDT
 
 
 0
 3
 3
+Alpenglow
+USB_C_PWR_THRU
+
+
+0
+4
+4
 Alpenglow_Sun_PCB
 GoldSunThinEye
 
@@ -267,6 +372,20 @@ NEW Sun 60
 0
 Alpenglow_Sun_PCB
 Negative Sun 60
+
+
+0
+0
+0
+Alpenglow_Sun_PCB
+Sun Neg for Silk 60mm
+
+
+0
+0
+0
+Alpenglow_Sun_PCB
+Sun Neg for Silk more coverage60mm
 
 
 0
