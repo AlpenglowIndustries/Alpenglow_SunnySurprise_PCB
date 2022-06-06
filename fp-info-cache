@@ -1,4 +1,4 @@
-19913515071916933
+19920141544536062
 Alpenglow
 0603+
 LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -34,6 +34,13 @@ AlpenglowSecLogo16by4
 0
 0
 0
+Alpenglow
+Alpenglow_LED_D5.0mm
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
 Alpenglow
 Alpenglow_Logo_Horiz
 
@@ -117,6 +124,20 @@ Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.c
 
 0
 7
+3
+Alpenglow
+Alpenglow_SW_DPDT_SMT_VERT
+Sub-miniature slide switch, vertical, SMT J bend https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.pdf
+switch DPDT SMT
+0
+6
+6
+Alpenglow
+Alpenglow_SW_DPDT_SMT_VERT_3
+Sub-miniature slide switch, vertical, SMT J bend https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.pdf
+switch DPDT SMT
+0
+6
 3
 Alpenglow
 Alpenglow_SecondaryLogo_25x6.7
@@ -365,6 +386,13 @@ GoldSunThinEye
 0
 Alpenglow_Sun_PCB
 NEW Sun 60
+
+
+0
+0
+0
+Alpenglow_Sun_PCB
+NEW Sun 60 SILK
 
 
 0
