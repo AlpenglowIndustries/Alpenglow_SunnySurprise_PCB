@@ -1,4 +1,4 @@
-19920141544536062
+19940231553809843
 Alpenglow
 0603+
 LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -6,6 +6,13 @@ LED
 0
 2
 2
+Alpenglow
+@AlpenglowIndOswald20mm
+
+
+0
+0
+0
 Alpenglow
 AlpenglowLogo5mm
 
@@ -119,27 +126,6 @@ Alpenglow_Logo_Std
 0
 0
 Alpenglow
-Alpenglow_SMD_Slide_Switch
-Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
-
-0
-7
-3
-Alpenglow
-Alpenglow_SW_DPDT_SMT_VERT
-Sub-miniature slide switch, vertical, SMT J bend https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.pdf
-switch DPDT SMT
-0
-6
-6
-Alpenglow
-Alpenglow_SW_DPDT_SMT_VERT_3
-Sub-miniature slide switch, vertical, SMT J bend https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.pdf
-switch DPDT SMT
-0
-6
-3
-Alpenglow
 Alpenglow_SecondaryLogo_25x6.7
 
 
@@ -161,12 +147,33 @@ BR2016 CR2016 DL2016 BR2020 CL2020 BR2025 CR2025 DL2025 DR2032 CR2032 DL2032
 3
 2
 Alpenglow
+BatteryHolder_CR2032_SMT_LCSC_BS-08-B2AA007
+http://www.keyelco.com/product-pdf.cfm?p=726
+CR2032 BR2032 BatteryHolder Battery
+0
+2
+2
+Alpenglow
 BatteryHolder_MPD_BK888_2032_THRU
 
 
 0
 3
 2
+Alpenglow
+COIN CELL ADAPTER
+
+
+0
+2
+2
+Alpenglow
+COIN CELL ADAPTER TEST
+
+
+0
+1
+1
 Alpenglow
 CONN-ISP-POGO-SMT
 
@@ -223,6 +230,13 @@ HEADER-01X06-SMT-RTA
 0
 6
 6
+Alpenglow
+JST_PH_S2B-PH-SM4-TB
+JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+4
+3
 Alpenglow
 LED_0805+
 LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
@@ -287,6 +301,13 @@ MNTG-HOLE-BANANA
 1
 1
 Alpenglow
+PADS-SMT-Handsoldering
+
+
+0
+2
+2
+Alpenglow
 SO-8
 SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
@@ -307,6 +328,13 @@ SOIC SO
 0
 16
 16
+Alpenglow
+SOD-123F
+D_SOD-123F
+D_SOD-123F
+0
+2
+2
 Alpenglow
 SOD-323
 SOD-323
@@ -336,6 +364,13 @@ SOT-23-6 Handsoldering
 6
 6
 Alpenglow
+SOT-223_TABP2
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+Alpenglow
 SW-4PDT-SMT
 
 
@@ -350,26 +385,68 @@ SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 6
 6
 Alpenglow
-SW_SLIDE_RTA
-CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf
-switch SPDT
+SW_DPDT_SMT_VERT_handsolder
+Sub-miniature slide switch, vertical, SMT J bend https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.pdf
+switch DPDT SMT
 0
-5
+6
+6
+Alpenglow
+SW_DPDT_SMT_VERT_minimal
+Sub-miniature slide switch, vertical, SMT J bend https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.pdf
+switch DPDT SMT
+0
+6
 3
 Alpenglow
-SW_SPDT_SMT_RTA
+SW_SPDT_SLIDE_SMT_RTA_handsolder
 Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
 
 0
 7
 7
 Alpenglow
-SlideSwitch_THT_SPDT
+SW_SPDT_SLIDE_SMT_RTA_minimal
+Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
+
+0
+7
+3
+Alpenglow
+SW_SPDT_SLIDE_THRU
 
 
 0
 3
 3
+Alpenglow
+SW_SPDT_SLIDE_THRU_RTA
+CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+5
+3
+Alpenglow
+TestPoint_THRU_D2.0mm_Drill1.0mm
+THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm
+test point THT pad
+0
+1
+1
+Alpenglow
+USB_B_MICRO_2XTHRUMNT
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
+6
+Alpenglow
+USB_B_MINI_THRU
+
+USB B Mini
+0
+9
+6
 Alpenglow
 USB_C_PWR_THRU
 
@@ -400,6 +477,13 @@ NEW Sun 60 SILK
 0
 Alpenglow_Sun_PCB
 Negative Sun 60
+
+
+0
+0
+0
+Alpenglow_Sun_PCB
+SUS board name font 20x3.7mm
 
 
 0
