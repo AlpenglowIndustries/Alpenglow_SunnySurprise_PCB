@@ -490,7 +490,7 @@
     (uuid 00000000-0000-0000-0000-0000622bdc31)
     (property "Reference" "SW1" (id 0) (at 133.35 58.801 0))
     (property "Value" "SW_SPDT" (id 1) (at 133.35 61.1124 0))
-    (property "Footprint" "Alpenglow:SW_SLIDE_RTA" (id 2) (at 133.35 66.04 0)
+    (property "Footprint" "Alpenglow:SW_SPDT_SLIDE_THRU_RTA" (id 2) (at 133.35 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 133.35 66.04 0)
@@ -622,7 +622,7 @@
       (reference "D5") (unit 1) (value "LED") (footprint "Alpenglow:LED_D5.0mm_Horizontal_Sun")
     )
     (path "/00000000-0000-0000-0000-0000622bdc31"
-      (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Alpenglow:SW_SLIDE_RTA")
+      (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Alpenglow:SW_SPDT_SLIDE_THRU_RTA")
     )
   )
 )
