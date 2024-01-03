@@ -1,4 +1,4 @@
-19940231553809843
+19946947026267544
 Alpenglow
 0603+
 LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -125,6 +125,13 @@ Alpenglow_Logo_Std
 0
 0
 0
+Alpenglow
+Alpenglow_SW_SPDT_3pin_RTA
+
+
+0
+3
+3
 Alpenglow
 Alpenglow_SecondaryLogo_25x6.7
 
@@ -276,6 +283,13 @@ Alpenglow
 LED_D5.0mm_Horizontal_Sun
 LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins
 LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins
+0
+2
+2
+Alpenglow
+LED_SMD_RGB_2pin
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED handsolder
 0
 2
 2
@@ -447,6 +461,20 @@ USB B Mini
 0
 9
 6
+Alpenglow
+USB_C_6P_BRP6L68
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+10
+7
+Alpenglow
+USB_C_6P_KH
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+10
+7
 Alpenglow
 USB_C_PWR_THRU
 
